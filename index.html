@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--lien pour se referer aux icones-->
+    <link rel="stylesheet" type="text/css" href="font/bootstrap-icons.css">
+
+    <title>GTAM</title>
+
+    <!-- Bootstrap  CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- fueille de style pour carousel -->
+    <link href="carousel.css" rel="stylesheet">
+    <!-- fueille de style css interne -->
+    <style type="text/css">
+      #manavigation a:active{
+        color: white;
+        font-weight: bold;
+        font-size: 30px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <!-- entete contenant navbar  -->
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" id="manavigation">
+        <a class="navbar-brand" href="#"><img src="img/logoa.jpg" class="rounded-circle" width="100" title="Groupe des Techniciens Ajusteurs Mecaniciens(GTAM)" ></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#apropos">A Propos <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#notremission">Notre Mission</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#nosservices">Nos Services</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#nosobjectifs">Nos objectifs</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#notreequipe">Notre équipe</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#noscontacts">Contactez-nous</a>
+            </li>
+          </ul>
+          <!--formulaire de recherche à completer aprè avoir appris le php-->
+          <!---<form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>-->
+        </div>
+      </nav>
+    </header>
+    <!-- fin entete -->
+
+    <main role="main">
+<!-- debut pour carousel -->
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="first-slide img-fluid" src="img/denoel1.png" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h1>AU SERVICE:</h1>
+                <p style="font-weight: bold; color: gray;">Pour toute fabrications des outils en métals(portes metaliques, fenetres metaliques,......).</p>
+                <p><a class="btn btn-lg btn-success bi bi-whatsapp" href="https://wa.me/0973919818" role="button">Contactez-nous</a></p>
+              </div>
+            </div>
+          </div>
+          <br><br>
+          <div class="carousel-item">
+            <img class="second-slide img-fluid" src="img/soudeury.png" alt="Second slide">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>GTAM POUR TOUS:</h1>
+                <p style="font-weight: bold; color: #001001;">Dans vos industries vous avez besoin de réaliser vos travaux. N'hesistez pas de nous contacter.Nous sommes là pour vous.</p>
+                <p><a class="btn btn-lg btn-primary bi bi-facebook" href="http://www.denoelkalinga64.fr/" role="button">Contactez-nous</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="third-slide img-fluid" src="img/soudeuro.png" alt="Third slide">
+            <div class="container">
+              <div class="carousel-caption text-right">
+                <h1>DES TECHNICIENS BIEN FORMES:</h1>
+                <p>Très prêts pour vous offrir un travail de qualité dans toutes vos activités techniques.</p>
+                <p><a class="btn btn-lg btn-danger bi bi-envelope" href="mailto:gtamweldingsevice@gmail.com" role="button">Contactez-nous</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!-- fin pour carousel -->
+      <!-- Le reste de la page dans un container -->
+
+      <div class="container marketing">
+
+        <!-- DEBUT CONTENU -->
+                <div class="row featurette">
+          
+          <div class="col-md-5" id="apropos">
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" src="img/realisation1.jpg" alt="Generic placeholder image">
+          </div>
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Le Groupe des Techniciens Ajusteurs Mecaniciens</h2>
+            <p class="lead">Ces deniers temps, on peut s'avoir se faire identifier dans la société par ce que l'on fait manuellement.Tel est le cas de <span title="Le Groupe des Techniciens Ajusteurs Mecaniciens">GTAM</span> qui travaillent pour faire quelque chose de bien pour la communauté en République Démocratique du Congo plus particulièrement sur toute l'étendue de la province du Nord-Kivu. Ce groupe fabriaue des portes et fenetres metalliques, bref tout ce qui porte sur l'ajustage et la progrmmation de certains outils.</p>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette" id="notremission">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">MISSION DU GTAM</h2>
+            <p class="lead">En République Démocratique du Congo en particulier, il y a tant de problèmes qui nécessiteraient l’implication des techniciens pour leur résolution. Ainsi, de la possibilité de batir un congo digne du nom avec des outils nouveaux de la part des techniciens vivant dans la contré et natifs d'elle donnerai une belle image à tous les points de vue.C'est ainsi que le GTAM se lance dans la mission de former une troupe forte des grands techniciens pour construire ensemble!Contactez-nous pour en savoir plus apropos de nos Formations! <a href="#noscontacts">Cliquer ici pour nous contacter</a></p>
+            <!--</p>-->
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" src="img/techniciens.jpg" alt="Generic placeholder image">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette" id="nosservices" style="background: (img/portailmetal.jpg); color: rgb(211,211,211); font-size: 20px; font-weight: bold;">
+          <div class=".col-12 .col-sm-6 .col-lg-8">
+            <h2 class="featurette-heading text-center bg-secondary"><span class="text-warning">GTAM</span> <span class="text-primary">Services<a href="#" class="bi bi-stars text-warning"></a></span> 
+            </h2>
+            <p class="lead" style="margin: 55px 50px 0px 50px; font-weight: bold;">Nous sommes un Groupes des Techniciens Ajusteurs Mécaniciens (GTAM). Groupe d’innovateurs en Ajustage  modernes et industriel, en mécanique des pointes œuvrant dans divers domaines. En bref, nous apportons du nouveau sur la technologie d’ajustage mécaniques. Dans le cadre de l’automatisation des ondes  dans vos entreprises, industries, maisons d’habitations, hôtels, appartement,  et dans toute autre nécessité, voici une solution à vos problèmes quotidiens dans : 
+            l’automatisation d’un portail metalique, 
+            la fabrication de toute sorte des portes métaliques,
+            la fabrication des différentes machines,
+            l'apprentissages et la formation des nouveaux membres.
+           </p>
+          </div>
+          <div class=".col-6 .col-lg-4">
+            <h2 class="featurette-heading text-center bg-secondary"><a href="#" class="bi bi-wrench"></a><span class="text-primary">Solutions</span> <span class="text-danger">créatives<a href="#" class="bi bi-snow text-danger"></a></span>
+            </h2>
+            <p class="lead" style="margin: 65px 50px 0px 50px; font-weight: bold;">En République Démocratique du Congo en particulier, il y a tant de problèmes qui nécessiteraient l’implication des techniciens pour leur résolution. Ainsi, de la possibilité d'électroniser tous les systèmes congolais en programmant les sirennes des maisons pour palier aux problèmes d'insécurité par exmple.</p>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette" id="nosobjectifs">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Nos objectifs:</h2>
+            <p class="lead">Cependant, il est étonnant de remarquer que les techniciens vagabondent les rues de la République, éparpillés comme de la semence dans un champ, alors que les solutions tardent encore à venir. Ce paradoxe illustrant un manque d’efficacité et d’efficience pousse à croire que le véritable obstacle à l’avalanche des solutions utiles a longtemps été le fait que la plupart de ces techniciens travaillent seuls dans leurs coins autour de leurs problèmes personnels (pour gagner un peu d’argent) et semblent ignorer qu’ensembles ils aideraient plus vite leur société en partageant leur expérience.C'est pourauquoi la GTAM est ouvert pour reunir bon nombre des techniciens dans tous les domaines pour Un Congo radieux.</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image" src="img/pub.jpg">
+            
+          </div>
+        </div>
+         
+
+               <h2 class="text-center" id="notreequipe">Notre Equipe:</h2>
+<hr>
+        <!-- Trois colonnes pour equipe -->
+        <div class="row text-center">
+          <div class="col-lg-2">
+            <img class="rounded-circle" src="img/chefamso.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>Kambale Musavuka Oscar</h2>
+            <p>Chef de l'ajustage mécanique et soudure.</p>
+            <p><a class="btn btn-success bi bi-whatsapp" href="https://wa.me/0971450755" role="button">Contactez</a></p>
+          </div><!-- /.col-lg-2 -->
+          <div class="col-lg-2">
+            <img class="rounded-circle" src="img/chefeid.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>Idrissa Ongala Simeon</h2>
+            <p>Chef de la filière d'électricité industrielle et domestique.</p>
+            <p><a class="btn btn-success bi bi-whatsapp" href="https://wa.me/0974006062" role="button">Contactez</a></p>
+          </div><!-- /.col-lg-2 -->
+          <div class="col-lg-2">
+            <img class="rounded-circle" src="img/tech.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>Christophe Mashauri</h2>
+            <p>Technicicien de terrain.</p>
+            <p><a class="btn btn-success bi bi-whatsapp" href="https://wa.me/0977819414" role="button">Contactez</a></p>
+          </div><!-- /.col-lg-2 -->
+          <div class="col-lg-2">
+            <img class="rounded-circle" src="img/techams.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>Yannick Muteke</h2>
+            <p>Technicien de terrain de l'ajustage mécanique et soudure.</p>
+            <p><a class="btn btn-success bi bi-whatsapp" href="https://wa.me/0991035892" role="button">Contactez</a></p>
+          </div><!-- /.col-lg-2 -->
+          <div class="col-lg-2">
+            <img class="rounded-circle" src="img/denoel.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>Denoel Kalinga</h2>
+            <p>Chef adjoint de l'ajustage mécanique.</p>
+            <p><a class="btn btn-success bi bi-whatsapp" href="https://wa.me/0973919818" role="button">Contactez</a></p>
+          </div><!-- /.col-lg-2 -->
+          <div class="col-lg-2">
+            <img class="rounded-circle" src="img/bai.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>Baraka Kinywa</h2>
+            <p>Programmeur web et concepteur d'applications web et desktop.</p>
+            <p><a class="btn btn-success bi bi-whatsapp" href="https://wa.me/0993342115" role="button">Contactez</a></p>
+          </div><!-- /.col-lg-2 -->
+        </div><!-- /.row -->
+
+
+        <!-- /FIN DU CONTENU PRINCIPAL -->
+
+      </div><!-- /.container -->
+
+
+      <!-- FOOTER -->
+      <footer class="container">
+        <!-- Nos parternaires -->
+        <div class="panel panel-default">
+              <div class="panel-heading">
+              <h2 class="panel-title">Cliquer ici pour voir nos parternaires....
+              <a data-toggle="collapse"data-parent="#accordion"href="#collapseTwo" class="bi bi-caret-down-fill"></a>
+              </h2>
+              </div>
+              <div id="collapseTwo"class="panel-collapse collapse">
+              <div class="panel-body">
+               <p>
+                <img src="img/parternaire1.jpg" width="150">
+                <img src="img/parternaire2.jpg" width="150">
+               </p>
+            </div>
+            </div>
+            </div>
+
+        <div class="row">
+        <h3 class="featurette-heading text-center" id="noscontacts">Contactez-nous:</h3><br><br>
+        </div>
+
+        <div class="row">
+            <p class="">
+          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+          <a href="http://www.denoelkalinga64.fr/" class="bi bi-facebook btn-primary btn-lg"></a>&nbsp<a href="https://wa.me/0973919818" class="bi bi-whatsapp btn-success btn-lg"></a>&nbsp<a href="tel:0973919818" class="bi bi-telephone-outbound btn-success btn-lg"></a>&nbsp<a href="mailto:gtamweldingsevice@gmail.com" class="bi bi-envelope-fill btn-danger btn-lg"></a>
+          </p>          
+        </div>
+        <hr>
+        <div class="row text-center">
+        <p>&copy;GTAM WELDING SERVICE 2021|Tous les droits réservés|Devloppé par Baraka Kinywa.<a href="#" class=" bi bi-arrow-up-circle-fill">Retour à haut de page</a></p>
+        </div>
+      </footer>
+    </main>
+
+    <!--Mes scripts-->
+  <script type="text/javascript" src="jquery/jquery.min.js"></script>
+  <script type="text/javascript" src="dist/js/bootstrap.js"></script>  
+  </body>
+</html>
